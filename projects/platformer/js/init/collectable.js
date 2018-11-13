@@ -33,12 +33,14 @@
     collectable.init = function (game) {
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-       
+        collectable.create(type.db, 200, 200, 0.1, 3)
+        collectable.create(type.max, 30, 150, 10, 0.7)
+        collectable.create(type.steve, 800, 50, 30, 5)
+        collectable.create(type.grace, 400, 30, 30, 5)
         // example: 
-       
-        collectable.create(type.steve, 300, 200, 4, 0.9);
-        collectable.create(type.steve, 400, 100, 2, 0.7);
-        collectable.create(type.steve, 200, 300, 3, 0.6);
+        collectable.create(type.kennedi, 100, 170, 50, 1);
+        
+        
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
